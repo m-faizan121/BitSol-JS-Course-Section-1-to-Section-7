@@ -1,0 +1,90 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 0;
+    background: rgb(7, 17, 149);
+    background: linear-gradient(90deg, rgb(17, 10, 97) 0%, rgb(79, 22, 179) 35%, rgb(66, 6, 155) 100%);
+}
+
+.header {
+    margin-top: 0;
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    position: sticky;
+    top: 0%;
+}
+
+.title{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-left: -7%;
+}
+
+.logo{
+    height: 70%;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn1 {
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    display: none;
+}
+
+.btn1:hover{
+    background-color: rgb(121, 135, 243);
+
+}
+
+.btn2:hover{
+    background-color: rgb(121, 135, 243);
+}
+
+.courses {
+    width: 170px;
+    padding: 3px; 
+    border-radius: 5px;
+}
+
+.result {
+    text-align: center;
+    background-color: rgb(126, 161, 222);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width:  15%;
+    display: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td{
+    padding: 8px 10px;
+    width: 100px;;
+    border: 1px solid #000;
+}
+
+#tableHead {
+    font-weight: bold;
+}
+
+
